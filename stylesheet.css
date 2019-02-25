@@ -1,0 +1,360 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+}
+header{
+  width:100%;
+  height:100px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.header-logo{
+ width:100px;
+ height:100px;
+ float:left;
+}
+.header-top{
+  float:left;
+  padding-left: 30px;
+}
+.header-top h3{
+  font-size: 10px;
+}
+.header-top h1{
+  margin:0;
+}
+.header-right{
+  float:right;
+  font-size: 18px;
+  line-height: 100px;
+  padding-right: 30px;
+}
+.header-right p{
+  margin:0;
+}
+.nav{
+  width:100%;
+  height:50px;
+  background-color: #FF5F17;
+}
+.nav li{
+  width:100px;
+  height:50px;
+  float:left;
+  text-align: center;
+  width:170px;
+  padding: 0 10px;
+  line-height: 50px;
+}
+.nav-fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width:100%;
+  line-height: 50px;
+}
+.top-wrapper{
+  width:100%;
+  height:600px;
+  background-image: url("https://as2.ftcdn.net/jpg/00/65/36/63/500_F_65366375_UKr7Slyk6s7MzMPryYNeVpR3T7OQbgyv.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding:50px 300px 0 300px;
+  text-align: center;
+  line-height: 80px;
+}
+.top-wrapper h1{
+  color:#FF5F17;
+  border: solid 4px #ff5f17;
+}
+.top-wrapper h2{
+  font-weight: normal;
+}
+.btn{
+  width:250px;
+  height:50px;
+  line-height: 50px;
+  border:solid 2px #ff5f17;
+  background-color: #FF5F17;
+  display: block;
+  float:left;
+  margin:60px 40px;
+  border-radius: 5px;
+}
+.btn:hover{
+  color:#FF5F17;
+  background-color: #fff;
+}
+.strong-wrapper{
+  width:100%;
+  height:500px;
+
+
+}
+.strong-top{
+  width:100%;
+  height:60px;
+  text-align: center;
+}
+.strong{
+  width:300px;
+  height:320px;
+  margin:60px;
+  padding: 20px 30px 0 ;
+  float:left;
+  background-color: #FF5F17;
+  text-align: center;
+  color:#fff;
+  border-radius: 5px;
+}
+.strong i{
+  color:#000;
+}
+.free-course{
+  width:100%;
+  height:750px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/10/10/21/46/laptop-2838918_960_720.jpg");
+  background-size: cover;
+  text-align: center;
+  padding:30px 150px 0;
+  color:#FF5F17;
+  font-weight: bold;
+  line-height: 50px;
+}
+.course-top{
+  width:100%;
+  height:70px;
+  line-height: 70px;
+  background-color: #c0c0c0;
+  color:#fff;
+  text-align: center;
+}
+.course-top h1{
+  margin: 0;
+}
+.free-course p, .fee-course p{
+  display: block;
+  background-color: #fff;
+}
+.free-course h2, .fee-course h2{
+  display: block;
+  background-color: #fff;
+}
+.course-bottom{
+  width:100%;
+  height:200px;
+  background-color: #c0c0c0;
+  text-align: center;
+  padding-top: 20px;
+  color:#fff;
+}
+.fee-course{
+  background-image: url("https://cdn.pixabay.com/photo/2014/05/02/21/50/home-office-336378_960_720.jpg");
+  width:100%;
+  height:550px;
+  background-size: cover;
+  text-align: center;
+  padding:30px 150px 0;
+  color:#FF5F17;
+  font-weight: bold;
+  line-height: 50px;
+}
+.fee-course-top{
+  background-color: #808000;
+}
+.curriculum-wrapper{
+  width:100%;
+  height:1700px;
+  text-align:center;
+  background-color: #008080;
+  padding-top: 20px;
+}
+.curriculum-wrapper .h1{
+  padding:0 220px;
+}
+.curriculum-wrapper h2{
+  text-align: center;
+  margin:40px 0 0;
+}
+.curriculum-top{
+  width:100%;
+  height:70px;
+  padding:0 430px;
+}
+.curriculum-top h1{
+  display: block;
+  width:400px;
+  text-align: center;
+  line-height: 70px;
+  margin:30px 0 0;
+  border:solid 2px #ff5f17;
+  color:#ff5f17;
+}
+.curriculum-mains{
+  height:900px;
+}
+.curriculum-main1-wrap{
+  width:25%;
+  height:320px;
+  float:left;
+  text-align: center;
+  color:#fff;
+  border-radius: 5px;
+  padding:0 30px;
+}
+.curriculum-main1{
+    background-color: #00ccff;
+    height:300px;
+    border-radius: 5px;
+    padding: 0 30px;
+}
+.curriculum-main1 h3{
+  padding-top:20px;
+}
+.arrow{
+  text-align: center;
+  height:50px;
+}
+.fa-arrow-alt-circle-down{
+  margin:30px 0;
+  padding:0 590px;
+}
+.curriculum-main2-wrap{
+  width:33.3333%;
+  height:320px;
+  float:left;
+  text-align: center;
+  color:#fff;
+  border-radius: 5px;
+  padding:0 70px;
+  margin-top:20px;
+}
+.curriculum-main2{
+  background-color: #FF5F17;
+  height:300px;
+  border-radius: 5px;
+  padding: 0 30px;
+}
+.curriculum-main2 h3{
+  padding-top:20px;
+}
+.table-wrapper{
+  width:100%;
+  height:300px;
+  padding:50px 230px 0;
+}
+
+table th{
+  width:300px;
+  background-color: #00ccff;
+}
+table td{
+  width:500px;
+  background-color: #99ccff;
+  text-align: center;
+}
+.school-introduce-wrapper{
+  position: absolute;
+  top:4800px;
+  width:100%;
+  height:900px;
+  background-color: #c0c0c0;
+}
+.school-introduce-wrapper h1{
+  padding:0 550px 50px;
+}
+.president-img{
+  margin-left: 250px;
+  margin-right: 30px;
+  float:left;
+}
+.president-text{
+  float:left;
+}
+.president h2{
+  width:200px;
+  border-bottom: solid 4px #808080;
+}
+.teachers{
+  width:100%;
+  height:400px;
+  position:absolute;
+  top:500px;
+}
+.teacher{
+  width:25%;
+  text-align: center;
+  float:left;
+}
+.opacity-wrapper{
+  width:100%;
+  height:500px;
+  background-image: url("https://as2.ftcdn.net/jpg/01/65/24/01/500_F_165240173_PKWTB95ZOaFANeFIc8l8VP5krLyLJE7Z.jpg");
+  background-size: cover;
+  position: absolute;
+  top:5700px;
+  text-align: center;
+  padding:30px 30px 0;
+}
+.opacity-top{
+  width:100%;
+  height:50px;
+}
+.opacity-left{
+  float: left;
+}
+.opacity-right{
+  float:right;
+}
+.opacity-left,.opacity-right{
+  width:40%;
+  height:220px;
+  padding:0 60px;
+  margin-top:30px;
+  background-color: #fff;
+}
+/*responsive design*/
+
+@media (max-width:1000px){
+  .header-top h1{
+    font-size: 25px;
+  }
+  .nav li{
+    width:15%;
+    font-size: 13px;
+  }
+  .top-wrapper{
+    padding:0 30px;
+  }
+  .top-wrapper h2{
+    font-size: 20px;
+    padding:0 70px;
+  }
+  .btn{
+    margin:60px 50px;
+  }
+  .strong-wrapper{
+    height:1400px;
+
+  }
+  .strong{
+    width:85%;
+  }
+  .free-course{
+    height:1200px;
+  }
+  .curriculum-mains{
+    width:100%;
+    height:700px;
+  }
+
+}
